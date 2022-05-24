@@ -16,7 +16,7 @@
         </div>
         <h5>
             <b>Nama :</b> {{ $anggota->user->name }} <br>
-            <b>NIM :</b> {{ $anggota->nim }} <br>
+            <b>KTP / NIM :</b> {{ $anggota->nim }} <br>
             <b>Jurusan :</b> {{ $anggota->jurusan }} <br><br>
         </h5>
         <hr>

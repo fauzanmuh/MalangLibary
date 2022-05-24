@@ -18,7 +18,7 @@
                     <div class="input-group">
                         <input type="text" name="keyword" class="form-control" placeholder="Search users...">
                         <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-search"></i> Search
+                            <i class="fas fa-search"></i> Cari
                         </button>
                     </div>
                 </form>

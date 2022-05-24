@@ -21,7 +21,7 @@
                 <div class="card-body">
                     @if ($errors->any())
                         <div class="alert alert-danger">
-                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                            <strong>Ups!</strong> Ada masalah dengan input Anda.<br><br>
                             <ul>
                                 @foreach ($errors->all() as $error)
                                     <li>{{ $error }}</li>
@@ -46,7 +46,7 @@
                                 aria-describedby="password" value="{{old("password")}}">
                         </div>
                         <div class="form-group">
-                            <label for="nim">Nim</label>
+                            <label for="nim">No KTP/NIM</label>
                             <input type="text" name="nim" class="form-control" id="nim" aria-describedby="nim"
                                 value="{{ old('nim') }}">
                         </div>

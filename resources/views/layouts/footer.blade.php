@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="inner-content">
-                <p>Copyright &copy; 2021 Polinema Library | M. Syifa'ul & M. Fauzan | Kelas TI-2G | </a></p>
+                <p>Copyright &copy; 2022 Malang Library | ALT F3 | Kelas TI-3G | </a></p>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 @extends('layouts.adminlte')
 
-@section('title', 'Daftar Buku Polinema Library')
+@section('title', 'Daftar Buku Malang Library')
 
 @section('content-custom')
 <div class="row">

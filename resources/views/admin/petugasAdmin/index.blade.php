@@ -13,7 +13,7 @@
                     <div class="input-group">
                         <input type="text" name="keyword" class="form-control" placeholder="Search users...">
                         <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-search"></i> Search
+                            <i class="fas fa-search"></i> Cari
                         </button>
                     </div>
                 </form>
@@ -58,7 +58,7 @@
 
                         <a class="btn btn-danger" href="" data-toggle="modal" id="smallButton" data-target="#smallModal"
                             data-attr="/admin/petugas/delete/{{ $petugas->id }}" title="Delete petugas">
-                            <i class="fas fa-trash"></i> Delete
+                            <i class="fas fa-trash"></i> Hapus
                         </a>
                     </td>
                 </tr>

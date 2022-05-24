@@ -21,7 +21,7 @@
                 <div class="card-body">
                     @if ($errors->any())
                         <div class="alert alert-danger">
-                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                            <strong>Ups!</strong> Ada masalah dengan input Anda.<br><br>
                             <ul>
                                 @foreach ($errors->all() as $error)
                                     <li>{{ $error }}</li>
@@ -36,11 +36,6 @@
                             <label for="username">Username</label>
                             <input type="username" name="username" class="form-control" id="username" aria-describedby="username"
                                 value="{{ $admin->user->username }}">
-                        </div>
-                        <div class="form-group">
-                            <label for="id">Id</label>
-                            <input type="text" name="id" class="form-control" id="id" aria-describedby="id"
-                                value="{{ $admin->id }}">
                         </div>
                         <div class="form-group">
                             <label for="nama">Nama</label>

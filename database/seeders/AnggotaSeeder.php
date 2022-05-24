@@ -15,12 +15,12 @@ class AnggotaSeeder extends Seeder
     public function run()
     {
         DB::table('anggota')->insert([
-            'nim' => 1941720057,
+            'nim' => 1941720171,
             'user_id' => 2,
             'jurusan' => 'Teknologi Informasi',
-            'tgl_lahir' => '2000-07-06',
-            'no_hp' => '082213589072',
-            'alamat' => 'Puri Cempaka Putih 2 Blok AY-02'
+            'tgl_lahir' => '2001-07-01',
+            'no_hp' => '089531867319',
+            'alamat' => 'Malang'
         ]);
     }
 }

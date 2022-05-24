@@ -16,7 +16,7 @@
             <div class="card-body">
                 @if ($errors->any())
                 <div class="alert alert-danger">
-                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                    <strong>Ups!</strong> Ada masalah dengan input Anda.<br><br>
                     <ul>
                         @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
@@ -53,7 +53,7 @@
                             aria-describedby="tgl_pinjam" value="{{old("tgl_pinjam")}}">
                     </div>
                     <div class="form-group">
-                        <label for="status">status</label>
+                        <label for="status">Status</label>
                         @php
                         $status = ['konfirmasi', 'dipinjam'];
                         @endphp

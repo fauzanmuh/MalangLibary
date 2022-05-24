@@ -52,7 +52,7 @@
 
                 <a class="btn btn-danger" href="" data-toggle="modal" id="smallButton" data-target="#smallModal"
                     data-attr="/admin/peminjaman/delete/{{ $peminjaman->id }}" title="Delete peminjaman">
-                    <i class="fas fa-trash"></i> Delete
+                    <i class="fas fa-trash"></i> Hapus
                 </a>
             </td>
         </tr>

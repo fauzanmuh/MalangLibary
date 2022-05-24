@@ -17,7 +17,7 @@
             <div class="card-body">
                 @if ($errors->any())
                 <div class="alert alert-danger">
-                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                    <strong>Ups!</strong> Ada masalah dengan input Anda.<br><br>
                     <ul>
                         @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
@@ -29,7 +29,7 @@
                     @csrf
                     @method('PUT')
                     <div class="form-group">
-                        <label for="anggota">anggota</label>
+                        <label for="anggota">Anggota</label>
                         <input type="anggota" name="anggota" class="form-control" id="anggota"
                             aria-describedby="anggota" readonly value="{{$pinjam->name}}">
                     </div>
@@ -64,7 +64,7 @@
                             value="{{$pinjam->denda}}">
                     </div>
                     <div class="form-group">
-                        <label for="status">status</label>
+                        <label for="status">Status</label>
                         @php
                         $status = ['konfirmasi', 'dipinjam', 'perpanjang', 'kembali'];
                         @endphp

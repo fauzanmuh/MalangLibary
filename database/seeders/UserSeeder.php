@@ -15,9 +15,9 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $username = ['admin', 'almasyriqi', 'petugas'];
-        $name = ['Administrator', 'Riqi', 'Petugas'];
-        $email = ['admin@gmail.com', 'almasyriqi@gmail.com', 'petugas@gmail.com'];
+        $username = ['admin', 'fauzanmuh', 'petugas'];
+        $name = ['Administrator', 'Fauzan', 'Petugas'];
+        $email = ['admin@gmail.com', 'mufauzan18@gmail.com', 'petugas@gmail.com'];
         $password = ['12345678', '12345678', '12345678'];
         $role = ['admin', 'anggota', 'petugas'];
 

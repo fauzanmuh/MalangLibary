@@ -62,7 +62,7 @@
 
                         <a class="btn btn-danger" href="" data-toggle="modal" id="smallButton" data-target="#smallModal"
                             data-attr="/petugas/kategori/delete/{{ $kategori->id }}" title="Delete Kategori Buku">
-                            <i class="fas fa-trash"></i> Delete
+                            <i class="fas fa-trash"></i> Hapus
                         </a>
                         @endif
                     </td>
